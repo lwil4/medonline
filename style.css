@@ -21,7 +21,7 @@ body{
     
     header {
 
-    display: flex;
+    display: inline-block;
     align-items: center;
     padding: 12px;
     justify-content: space-around;
@@ -29,9 +29,7 @@ body{
     color: black;
     position: relative;
     top: 100%;
-    background-color: #FC9C6C;
     width: 100%;
-    padding: 20px 0;
     text-align: center;
     }
 
