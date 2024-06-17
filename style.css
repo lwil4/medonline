@@ -13,3 +13,67 @@ body{
         width: 50%;
     }
 }
+
+
+*{
+    margin: 0;   
+    }
+    
+    header {
+
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-around;
+    background-color: black;
+    color: rgb(223, 6, 6);rgb(167, 43, 43)
+    position: relative;
+    }
+
+    /* Importante para o menu tomar como referência *
+    
+    
+    
+    ul li{
+    
+    list-style: none;
+    
+    }
+    
+    .texto{
+    
+    color: white;
+    
+    }
+    
+    a{
+    color: white;
+    text-decoration: none;
+    }
+    
+    .lista{
+    
+    display: none;
+    
+    position: absolute; /* Aqui está definindo onde o menu irá aparecer */
+    
+    top: 100%;
+    background-color: rgb(99, 72, 72);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    }
+    
+    Fazendo o menu aparecer quando clicado */
+    .caixa:checked .lista{
+    display: block;
+    }
+    
+    Desaparecendo a caixa de seleção /
+    #menu{
+    display: none;
+    }
+    
+    .lista-item{
+    padding: 12px 0;
+    }
