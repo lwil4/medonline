@@ -4,7 +4,7 @@ body{
 
 .logo{
     width: 100%;
-    border: solid gray;
+    border: solid #DCC4C4;
 }
 
 
@@ -25,25 +25,19 @@ body{
     align-items: center;
     padding: 12px;
     justify-content: space-around;
-    background-color: black;
+    background-color: #DCC4C4;
     color: rgb(223, 6, 6);rgb(167, 43, 43)
     position: relative;
     }
 
     /* Importante para o menu tomar como referência *
     
-    
-    
     ul li{
-    
     list-style: none;
-    
     }
     
     .texto{
-    
     color: white;
-    
     }
     
     a{
@@ -52,9 +46,7 @@ body{
     }
     
     .lista{
-    
     display: none;
-    
     position: absolute; /* Aqui está definindo onde o menu irá aparecer */
     
     top: 100%;
