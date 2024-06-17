@@ -2,14 +2,14 @@ body{
     background-color: #DCC4C4;
 }
 
-.queijo{
+.logo{
     width: 100%;
     border: solid gray;
 }
 
 
 @media screen and (min-width: 1024px){
-    .queijo{
+    .logo{
         width: 50%;
     }
 }
