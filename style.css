@@ -4,7 +4,12 @@ body{
 
 .queijo{
     width: 100%;
-    border-radius: 30px;
+    border: solid gray;
 }
 
 
+@media screen and (min-width: 1024px){
+    .queijo{
+        width: 50%;
+    }
+}
