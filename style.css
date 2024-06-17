@@ -28,6 +28,11 @@ body{
     background-color:#FCAC95;
     color: black;
     position: relative;
+    top: 100%;
+    background-color: #FC9C6C;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
     }
 
     /* Importante para o menu tomar como referência *
@@ -48,13 +53,6 @@ body{
     .lista{
     display: none;
     position: absolute; /* Aqui está definindo onde o menu irá aparecer */
-    
-    top: 100%;
-    background-color: rgb(99, 72, 72);
-    width: 100%;
-    padding: 20px 0;
-    text-align: center;
-    }
     
     Fazendo o menu aparecer quando clicado */
     .caixa:checked .lista{
