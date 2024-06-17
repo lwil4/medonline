@@ -66,4 +66,6 @@ body{
     
     .lista-item{
     padding: 12px 0;
+    color: black;
+    position: relative;
     }
